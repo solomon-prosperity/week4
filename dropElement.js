@@ -7,7 +7,7 @@ function dropElements ( arr , funct ) {
             arr.shift();
         }
     }
-    console.log (arr)
+    return arr;
 }
 
 dropElements ( [1,2,3,4] , function (n) {

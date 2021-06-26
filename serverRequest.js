@@ -6,4 +6,5 @@ fetch('https://jsonplaceholder.typicode.com/users')
         for (let i = 0 ; i < json.length ; i++) {
             console.log(json[i].name)
         }
-})
+    })
+    .catch (err =>  console.error(err) )
